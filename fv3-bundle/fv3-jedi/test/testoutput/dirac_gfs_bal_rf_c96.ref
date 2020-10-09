@@ -1,0 +1,26 @@
+Test     : Input Dirac increment:
+Test     :  --------------------------------------------------------------------------------
+Test     :  Increment print | number of fields = 9 | cube sphere face size: C96
+Test     :    ua            : Min = +0.000000e+00, Max = +1.000000e+00, RMS = +5.315733e-04
+Test     :    va            : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    T             : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    delp          : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    ps            : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    sphum         : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    ice_wat       : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    liq_wat       : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    o3mr          : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :  --------------------------------------------------------------------------------
+Test     : B * Increment:
+Test     :  --------------------------------------------------------------------------------
+Test     :  Increment print | number of fields = 9 | cube sphere face size: C96
+Test     :    ua            : Min = -5.048198e-02, Max = +3.120099e-01, RMS = +2.707871e-03
+Test     :    va            : Min = -7.141836e-02, Max = +2.503671e-01, RMS = +1.883357e-03
+Test     :    T             : Min = -1.153388e-02, Max = +1.327362e-02, RMS = +4.461024e-04
+Test     :    delp          : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    ps            : Min = -3.181297e-10, Max = +3.661971e-10, RMS = +2.407305e-11
+Test     :    sphum         : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    ice_wat       : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    liq_wat       : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    o3mr          : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :  --------------------------------------------------------------------------------

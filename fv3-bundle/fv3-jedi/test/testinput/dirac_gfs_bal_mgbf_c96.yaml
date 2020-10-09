@@ -1,0 +1,57 @@
+geometry:
+  nml_file_mpp: Data/fv3files/fmsmpp.nml
+  trc_file: Data/fv3files/field_table
+  akbk: Data/fv3files/akbk64.nc4
+  # input.nml
+  layout: [4,2]
+  io_layout: [1,1]
+  npx: 97
+  npy: 97
+  npz: 64
+  ntiles: 6
+  fieldsets:
+    - fieldset: Data/fieldsets/dynamics.yaml
+initial condition:
+  filetype: gfs
+  datapath: Data/
+  filename_core: 20180415.000000.c96.fv_core.res.nc
+  filename_trcr: 20180415.000000.c96.fv_tracer.res.nc
+  filename_sfcd: 20180415.000000.c96.sfc_data.nc
+  filename_sfcw: 20180415.000000.c96.fv_srf_wnd.res.nc
+  filename_cplr: 20180415.000000.c96.coupler.res
+  state variables: [ua,va,T,delp,ps,sphum,ice_wat,liq_wat,o3mr]
+background error:
+  covariance model: MGBF
+  date: '2018-04-15T00:00:00Z'
+  mgbf:
+    nA_max0: 1800
+    mA_max0: 1060
+    nm0: 1804
+    mm0: 1072
+    im00: 1760
+    jm00: 960
+    lm: 64
+    nxm: 8
+    mym: 6
+  variable changes:
+  - variable change: NMCBalance
+    layoutx: 8
+    layouty: 6
+    path_to_nmcbalance_coeffs: Data/inputs/nmcbalance/global_berror.l64y192.nc
+    input variables: [psi,chi,tv,ps,rh,ice_wat,liq_wat,o3mr]
+    output variables: [ua,va,T,delp,ps,sphum,ice_wat,liq_wat,o3mr]
+output B:
+  filetype: gfs
+  datapath: Data/mgbf/
+  filename_core: dirac_gfs_bal_mgbf.c96.B.fv_core.res.nc
+  filename_trcr: dirac_gfs_bal_mgbf.c96.B.fv_tracer.res.nc
+  filename_sfcd: dirac_gfs_bal_mgbf.c96.B.sfc_data.nc
+  filename_sfcw: dirac_gfs_bal_mgbf.c96.B.fv_srf_wnd.res.nc
+  filename_cplr: dirac_gfs_bal_mgbf.c96.B.coupler.res
+dirac:
+  ndir: 1
+  ixdir: [1]    #Xdir
+  iydir: [1]    #Ydir
+  ildir: [50]   #Level
+  itdir: [1]    #Tile
+  ifdir: ['ua'] #Field

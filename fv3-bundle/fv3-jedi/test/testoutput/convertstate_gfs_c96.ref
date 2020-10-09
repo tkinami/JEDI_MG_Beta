@@ -1,0 +1,88 @@
+Test     : Input state:
+Test     :  --------------------------------------------------------------------------------
+Test     :  State print | number of fields = 23 | cube sphere face size: C12
+Test     :    u             : Min = -8.043154e+01, Max = +6.781640e+01, RMS = +1.271046e+01
+Test     :    v             : Min = -7.085105e+01, Max = +8.683093e+01, RMS = +1.288778e+01
+Test     :    ua            : Min = -4.531172e+01, Max = +9.312475e+01, RMS = +1.646961e+01
+Test     :    va            : Min = -5.410470e+01, Max = +6.517229e+01, RMS = +8.290366e+00
+Test     :    T             : Min = +1.845484e+02, Max = +3.082121e+02, RMS = +2.484225e+02
+Test     :    DELP          : Min = +4.424700e+01, Max = +3.727271e+03, RMS = +1.940802e+03
+Test     :    sphum         : Min = +7.329004e-08, Max = +1.886247e-02, RMS = +4.751729e-03
+Test     :    ice_wat       : Min = -5.751156e-22, Max = +5.096676e-04, RMS = +1.457056e-05
+Test     :    liq_wat       : Min = -8.034868e-21, Max = +9.161694e-04, RMS = +2.823004e-05
+Test     :    o3mr          : Min = +3.012987e-08, Max = +1.752379e-05, RMS = +5.609118e-06
+Test     :    phis          : Min = -2.647795e+02, Max = +4.987891e+04, RMS = +5.969167e+03
+Test     :    slmsk         : Min = +0.000000e+00, Max = +2.000000e+00, RMS = +6.329512e-01
+Test     :    sheleg        : Min = +0.000000e+00, Max = +2.011737e+02, RMS = +2.385674e+01
+Test     :    tsea          : Min = +2.093163e+02, Max = +3.130520e+02, RMS = +2.885626e+02
+Test     :    vtype         : Min = +0.000000e+00, Max = +1.900000e+01, RMS = +5.812324e+00
+Test     :    stype         : Min = +0.000000e+00, Max = +1.600000e+01, RMS = +4.236361e+00
+Test     :    vfrac         : Min = +0.000000e+00, Max = +8.665497e-01, RMS = +2.046822e-01
+Test     :    stc           : Min = +2.163042e+02, Max = +3.112298e+02, RMS = +2.892546e+02
+Test     :    smc           : Min = +3.380891e-02, Max = +1.000000e+00, RMS = +8.649664e-01
+Test     :    snwdph        : Min = +0.000000e+00, Max = +1.975640e+03, RMS = +2.045413e+02
+Test     :    u_srf         : Min = -1.811848e+01, Max = +2.248272e+01, RMS = +6.390146e+00
+Test     :    v_srf         : Min = -1.956833e+01, Max = +1.854067e+01, RMS = +5.532443e+00
+Test     :    f10m          : Min = +6.137456e-01, Max = +1.147246e+00, RMS = +9.020324e-01
+Test     :  --------------------------------------------------------------------------------
+Test     : Output state:
+Test     :  --------------------------------------------------------------------------------
+Test     :  State print | number of fields = 23 | cube sphere face size: C96
+Test     :    u             : Min = -6.921083e+01, Max = +6.320597e+01, RMS = +1.073661e+01
+Test     :    v             : Min = -6.698230e+01, Max = +8.894377e+01, RMS = +1.106398e+01
+Test     :    ua            : Min = -4.517454e+01, Max = +8.913659e+01, RMS = +1.565256e+01
+Test     :    va            : Min = -5.241240e+01, Max = +6.319495e+01, RMS = +6.952859e+00
+Test     :    T             : Min = +1.846708e+02, Max = +3.079335e+02, RMS = +2.484182e+02
+Test     :    DELP          : Min = +4.424700e+01, Max = +3.725836e+03, RMS = +1.939668e+03
+Test     :    sphum         : Min = +9.502867e-08, Max = +1.878843e-02, RMS = +4.662334e-03
+Test     :    ice_wat       : Min = -1.705090e-22, Max = +4.627116e-04, RMS = +9.938564e-06
+Test     :    liq_wat       : Min = -7.449406e-21, Max = +8.522449e-04, RMS = +1.947387e-05
+Test     :    o3mr          : Min = +3.204819e-08, Max = +1.750108e-05, RMS = +5.604461e-06
+Test     :    phis          : Min = -2.098940e+02, Max = +4.772848e+04, RMS = +5.156503e+03
+Test     :    slmsk         : Min = +0.000000e+00, Max = +2.000000e+00, RMS = +5.788073e-01
+Test     :    sheleg        : Min = +0.000000e+00, Max = +1.842947e+02, RMS = +2.099122e+01
+Test     :    tsea          : Min = +2.110550e+02, Max = +3.125077e+02, RMS = +2.885547e+02
+Test     :    vtype         : Min = +0.000000e+00, Max = +1.900000e+01, RMS = +5.591724e+00
+Test     :    stype         : Min = +0.000000e+00, Max = +1.600000e+01, RMS = +3.968527e+00
+Test     :    vfrac         : Min = +0.000000e+00, Max = +8.518861e-01, RMS = +1.802327e-01
+Test     :    stc           : Min = +2.174744e+02, Max = +3.108362e+02, RMS = +2.892458e+02
+Test     :    smc           : Min = +3.677119e-02, Max = +1.000000e+00, RMS = +8.496262e-01
+Test     :    snwdph        : Min = +0.000000e+00, Max = +1.805367e+03, RMS = +1.750506e+02
+Test     :    u_srf         : Min = -1.697960e+01, Max = +2.193205e+01, RMS = +5.497558e+00
+Test     :    v_srf         : Min = -1.863998e+01, Max = +1.784536e+01, RMS = +4.325010e+00
+Test     :    f10m          : Min = +6.173042e-01, Max = +1.129725e+00, RMS = +9.008653e-01
+Test     :  --------------------------------------------------------------------------------
+Test     : Input state:
+Test     :  --------------------------------------------------------------------------------
+Test     :  State print | number of fields = 13 | cube sphere face size: C12
+Test     :    u             : Min = +9.911342e-02, Max = +3.556914e+01, RMS = +1.899143e+01
+Test     :    v             : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    ua            : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    va            : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    T             : Min = +2.092748e+02, Max = +3.098560e+02, RMS = +2.574574e+02
+Test     :    DELP          : Min = +4.424700e+01, Max = +3.551113e+03, RMS = +1.960975e+03
+Test     :    w             : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    delz          : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    sphum         : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    ice_wat       : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    liq_wat       : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    o3mr          : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    phis          : Min = -3.082558e+03, Max = +1.106156e+03, RMS = +1.226625e+03
+Test     :  --------------------------------------------------------------------------------
+Test     : Output state:
+Test     :  --------------------------------------------------------------------------------
+Test     :  State print | number of fields = 13 | cube sphere face size: C96
+Test     :    u             : Min = -3.874555e+00, Max = +3.673036e+01, RMS = +1.804262e+01
+Test     :    v             : Min = -2.483413e+01, Max = +2.139322e+01, RMS = +2.995866e+00
+Test     :    ua            : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    va            : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    T             : Min = +2.092748e+02, Max = +3.098560e+02, RMS = +2.574693e+02
+Test     :    DELP          : Min = +4.424700e+01, Max = +3.551113e+03, RMS = +1.960975e+03
+Test     :    w             : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    delz          : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    sphum         : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    ice_wat       : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    liq_wat       : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    o3mr          : Min = +0.000000e+00, Max = +0.000000e+00, RMS = +0.000000e+00
+Test     :    phis          : Min = -3.082558e+03, Max = +1.106156e+03, RMS = +1.201836e+03
+Test     :  --------------------------------------------------------------------------------
